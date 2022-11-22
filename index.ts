@@ -12,4 +12,4 @@ const range = [...new Array(new_dept_code)].map((_, i) => i + 1);
 console.log(new_dept_code);
 console.log(range);
 
-appDiv.innerHTML = `<h1>dept_code = ${new_dept_code} 계층 정보 ${range}</h1>`;
+appDiv.innerHTML = `<h1>dept_code: ${new_dept_code} 계층 정보: ${range}</h1>`;
